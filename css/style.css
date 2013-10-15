@@ -1,0 +1,97 @@
+/* This code is tested with latest version of Firefox and Chrome */
+body {font: 14px/24px "Helvetica Neue", Helvetica, Arial, sans-serif;color: #585858;}
+
+.box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.25), 0 0 50px rgba(0,0,0,0.1) inset;
+  border-radius: 1%     1%     1%     1% /     1%     1%     1%     1%;
+  padding: 3px 3px;
+  display:none;
+  min-width: 400px;
+}
+.box:before {
+    position: absolute;
+    content: "";
+    width: 130%;
+    height: 30%;
+    border-left: 1px dashed rgba(0, 0, 0, 0.1);
+    border-right: 1px dashed rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.1);
+    background: -webkit-gradient(linear, 555% 20%, 0% 92%, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.0)), color-stop(.1,rgba(0, 0, 0, 0.2)));
+    background: -moz-linear-gradient(555% 0 180deg, rgba(0,0,0,0.1), rgba(0,0,0,0.2) 10%, rgba(0,0,0,0.0));
+    background: -ms-linear-gradient(555% 0 180deg, rgba(0,0,0,0.1), rgba(0,0,0,0.2) 10%, rgba(0,0,0,0.0));
+    background: -o-linear-gradient(555% 0 180deg, rgba(0,0,0,0.1), rgba(0,0,0,0.2) 10%, rgba(0,0,0,0.0));
+    background: linear-gradient(555% 0 180deg, rgba(0,0,0,0.1), rgba(0,0,0,0.2) 10%, rgba(0,0,0,0.0));
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.15);
+    -webkit-transform: translate(44px,-10px) skew(0deg) rotate(-45deg);
+     -moz-transform: translate(44px,-10px) skew(0deg) rotate(-45deg);
+     -ms-transform: translate(44px,-10px) skew(0deg) rotate(-45deg);
+     -o-transform: translate(44px,-10px) skew(0deg) rotate(-45deg);
+     transform: translate(44px,-10px) skew(0deg) rotate(-45deg);
+    }
+.box:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    left: 0;
+    width: 130%;
+    height: 30%;
+    border-left: 1px dashed rgba(0, 0, 0, 0.1);
+    border-right: 1px dashed rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.1);
+    background: -webkit-gradient(linear, 555% 20%, 0% 92%, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.0)), color-stop(.1,rgba(0, 0, 0, 0.2)));
+    background: -moz-linear-gradient(555% 0 180deg, rgba(0,0,0,0.1), rgba(0,0,0,0.2) 10%, rgba(0,0,0,0.0));
+    background: -ms-linear-gradient(555% 0 180deg, rgba(0,0,0,0.1), rgba(0,0,0,0.2) 10%, rgba(0,0,0,0.0));
+    background: -o-linear-gradient(555% 0 180deg, rgba(0,0,0,0.1), rgba(0,0,0,0.2) 10%, rgba(0,0,0,0.0));
+    background: linear-gradient(555% 0 180deg, rgba(0,0,0,0.1), rgba(0,0,0,0.2) 10%, rgba(0,0,0,0.0));
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.15);
+    -webkit-transform: translate(-44px,10px) skew(0deg) rotate(-45deg);
+     -moz-transform: translate(-44px,10px) skew(0deg) rotate(-45deg);
+     -ms-transform: translate(-44px,10px) skew(0deg) rotate(-45deg);
+     -o-transform: translate(-44px,10px) skew(0deg) rotate(-45deg);
+     transform: translate(-44px,10px) skew(0deg) rotate(-45deg);
+    }
+    
+/* This code is tested with latest version of Firefox and Chrome */
+.box2 {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.25), 0 0 50px rgba(0,0,0,0.1) inset;
+  border-radius: 1%     1%     1%     1% /     1%     1%     1%     1%;
+  margin-top: 10px;
+  display:none;
+}
+.box2:before {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    border-radius: 10px / 100px;
+    z-index: -1;
+    top: 10%;
+    bottom: 10%;
+    content: "";
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+  }    
+    
+ul {margin:0;padding:3px;}    
+li {list-style: none;display:inline-block;width: 128px;}
+li a {color: #585858;padding-left: 5px;padding-right: 5px;font-size: 10px;text-decoration:none;}   
+
+div.loader {
+	background-image:url('../img/ajax-loader.gif');
+	background-repeat:no-repeat;
+	padding-left: 55px;
+	height: 48px;
+	line-height: 48px;
+	margin-left: 100px;
+}
+
+div#env { text-align: center;}
+
+
+.box a{width: auto; display: block; text-align: center;}
