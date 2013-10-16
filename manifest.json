@@ -5,7 +5,7 @@
   "description": "Weber Saint-Gobain",
   "version": "1.0",
   "permissions": [ 
-    "tabs", "notifications",
+    "tabs",
     "unlimitedStorage",
     "http://*/",
     "https://*/"

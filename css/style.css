@@ -1,5 +1,5 @@
 /* This code is tested with latest version of Firefox and Chrome */
-body {font: 14px/24px "Helvetica Neue", Helvetica, Arial, sans-serif;color: #585858;}
+body {font: 14px/24px "Helvetica Neue", Helvetica, Arial, sans-serif;color: #585858; height:auto;"}
 
 .box {
   position: relative;
@@ -11,6 +11,7 @@ body {font: 14px/24px "Helvetica Neue", Helvetica, Arial, sans-serif;color: #585
   padding: 3px 3px;
   display:none;
   min-width: 400px;
+  text-align: center;
 }
 .box:before {
     position: absolute;
