@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
 
-  "name": "__MSG_weber_name__ ™",
-  "description": "Weber Saint-Gobain",
-  "version": "1.0",
+  "name": "Weber Saint-Gobain",
+  "description": "This extension will allow you to quickly navigate between websites countries Weber Saint Gobain group.",
+  "version": "1.0.1",
   "permissions": [ 
     "tabs",
     "unlimitedStorage",
